@@ -1,10 +1,86 @@
 <html>
     <head>
         <title>NateWorks</title>
+        <style>
+            body {
+            }
+            #nav {
+                display: flex;
+                border-radius: 10px;
+                gap: 10px;
+
+            }
+            #nav p {
+                font-size: large;
+                text-align: center;
+            }
+            #nav div {
+                padding: 10px;
+                width:100%;
+                border-radius: 10px;
+                background-color: whitesmoke;
+            }
+            #nav div:hover {
+                background-color: rgb(200, 200, 200);
+            }
+            #title {
+                text-align: center;
+            }
+            #slogan {
+                text-align: center;
+            }
+            #follow {
+                
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+                justify-content: center;
+                background-color: aquamarine;
+                
+            }
+            #follow div {
+                width: 50%;
+                text-align: center;
+            }
+            #follow h1 {
+                justify-self: center;
+            }
+            #follow h3 {
+                justify-self: right;
+            }
+            .feat {
+                margin: 10px;
+                height:500px;
+                border-radius: 50px;
+            }
+            #natotatoshc {
+                background-color: rgb(200,200,200);
+            }
+            #natotatoshc h1 {
+                text-align: center;
+                font-size: 300%;
+            }
+            #natotatoshc img {
+                border-radius: 100%;
+            }
+        </style>
     </head>
     <body>
+        <h1 id="title">NateWorks</h1>
+        <h4 id="slogan">Too Much Too Remember</h4>
         <header id="nav">
-            <div><p onclick="location.assign('natotatoshc.github.io')">NatoTatoSHC</p></div>
+            <div onclick="location.assign('https://natotatoshc.github.io')"><p>NatoTatoSHC</p></div>
+            <div onclick="location.assign('https://natotatoshc.github.io/Nwp')"><p>NateWorks Procedure</p></div>
         </header>
+        <section id="follow" class="feat">
+            <div>
+                <h1>"Commit your work to the Lord, and your plans will be established"</h1>
+                <h3>Proverbs 16:3</h3>
+            </div>
+        </section>
+        <section id="natotatoshc" class="feat">
+            <h1><img src="https://natotatoshc.github.io/natotatoshc.png"/>NatoTatoSHC</h1>
+        </section>
     </body>
 </html>
